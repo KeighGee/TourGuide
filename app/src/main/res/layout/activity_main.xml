@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5CB7E5"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+
+    <Button
+        android:id="@+id/entertainment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="entertainment"
+        android:layout_weight="1"
+        android:background="#0C5E87"
+        android:layout_margin="8dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/parks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="parks"
+        android:layout_weight="1"
+        android:background="#0C5E87"
+        android:layout_margin="8dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/restuarants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="restuarants"
+        android:layout_weight="1"
+        android:background="#0C5E87"
+        android:layout_margin="8dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/schools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schools"
+        android:layout_weight="1"
+        android:background="#0C5E87"
+        android:layout_margin="8dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TourData"
+        android:layout_weight="1"
+        android:background="#0C5E87"
+        android:layout_margin="8dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
